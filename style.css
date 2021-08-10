@@ -1,0 +1,94 @@
+*{
+    text-align: center;
+    margin: auto;
+
+}
+body{
+    background-image:url(https://wallpapercave.com/wp/ASQx0cM.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.head{
+    margin-top: 0;
+    background-color: red;
+    text-decoration: underline;
+}
+img{
+    height: 200px;
+    width: auto;
+}
+.img1{
+    padding: 10px;
+    float: left;
+}
+.img2{
+    padding: 10px;
+    float: right;
+}
+.fill{
+    color: red;
+    margin-top: 185px;
+}
+.this{
+    border:1px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+}
+.name{
+    margin: 10px;
+    
+}
+.address{
+    margin-top:25px;
+    margin: 10px;
+    
+}
+.sx{
+    text-align: center;
+    margin-top:17px; 
+}
+.position{
+    margin-top:35px;
+}
+.box{
+    margin-top:22px;
+}
+.etext{
+    margin-top:45px;
+}
+button{
+    margin-top: 30px;
+    color:red;
+    background-color: black;
+}
+button:hover{
+    animation-name: change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes change {
+    100%{
+        background-color: red;
+        color:black;
+    }
+    
+}
+footer{
+    background-color: red;
+    margin-bottom: 0;
+}
+#foot{
+    position:absolute;
+    bottom: 0px;
+    width:100%;
+    font-style: italic;
+    font-weight: bold;
+}
